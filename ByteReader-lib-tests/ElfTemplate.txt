@@ -1,0 +1,44 @@
+struct ELF_Signature {
+    byte sig;
+    char mag_e;
+    char mag_l;
+    char mag_f;
+};
+
+struct ELF_Eident {
+    ELF_Signature sig;
+    byte ei_class;
+    byte ei_data;
+    int ei_version;
+
+    byte pad_1;
+    byte pad_2;
+    byte pad_3;
+    byte pad_4;
+    byte pad_5;
+    byte pad_6;
+
+    short e_type;
+    0xshort e_machine;
+    int e_version;
+    0xint e_entryPtr;
+    0xint e_phoffPtr;
+    0xint e_shoffPtr;
+    int pad_7;
+    short e_ehsize;
+    short e_phentsize;
+    short e_phnum;
+    short e_shentsize;
+    short e_shnum;
+    short e_shstrndx
+};
+
+struct ELF_Ehdr {
+    ELF_Eident e_ident;
+};
+
+struct ELF {
+    ELF_Ehdr elf_header;
+};
+
+ELF elf;
