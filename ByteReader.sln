@@ -1,0 +1,22 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByteReader-lib", "ByteReader-lib\ByteReader-lib.csproj", "{77C8817B-3A9D-4A33-A8BC-F04AEFDFB7BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByteReader-lib-tests", "ByteReader-lib-tests\ByteReader-lib-tests.csproj", "{30D0F875-5663-4D53-B45D-264C999F2C2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77C8817B-3A9D-4A33-A8BC-F04AEFDFB7BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77C8817B-3A9D-4A33-A8BC-F04AEFDFB7BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77C8817B-3A9D-4A33-A8BC-F04AEFDFB7BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77C8817B-3A9D-4A33-A8BC-F04AEFDFB7BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30D0F875-5663-4D53-B45D-264C999F2C2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30D0F875-5663-4D53-B45D-264C999F2C2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30D0F875-5663-4D53-B45D-264C999F2C2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30D0F875-5663-4D53-B45D-264C999F2C2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
